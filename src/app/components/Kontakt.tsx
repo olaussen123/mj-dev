@@ -2,7 +2,7 @@ const Kontakt: React.FC = () =>{
     return(
       
         <div className="my-6" id="kontakt">
-            <div className="max-w-6xl mx-auto bg-[#151938] rounded-lg">
+            <div className=" w-full mx-auto bg-[#151938] rounded-lg">
                 <div className="grid md:grid-cols-2 items-center gap-16 sm:p-10 p-4 font-[sans-serif]">
                     <div>
                         <h1 className="text-4xl font-extrabold text-white">Ta kontakt</h1>
@@ -38,7 +38,7 @@ const Kontakt: React.FC = () =>{
                             </li>
                         </ul>
                         <ul className="flex mt-12 space-x-4">
-                            <li className="bg-[#a91079] hover:bg-[#a91079e2] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                            <li className="bg-blue-800 hover:bg-[#a91079e2] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="javascript:void(0)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
                                         viewBox="0 0 24 24">
@@ -48,7 +48,7 @@ const Kontakt: React.FC = () =>{
                                     </svg>
                                 </a>
                             </li>
-                            <li className="bg-[#a91079] hover:bg-[#a91079e2] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                            <li className="bg-blue-800 hover:bg-[#a91079e2] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="javascript:void(0)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
                                         viewBox="0 0 511 512">
@@ -58,7 +58,7 @@ const Kontakt: React.FC = () =>{
                                     </svg>
                                 </a>
                             </li>
-                            <li className="bg-[#a91079] hover:bg-[#a91079e2] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                            <li className="bg-blue-800 hover:bg-[#a91079e2] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                                 <a href="javascript:void(0)">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18px" height="18px" fill='#fff'
                                         viewBox="0 0 24 24">
@@ -73,21 +73,21 @@ const Kontakt: React.FC = () =>{
                     <div className="bg-gray-200 p-6 rounded-lg">
                         <p className="text-sm font-semibold text-[#333]">Jeg er interessert i...</p>
                         <div className="space-y-4 max-lg:mt-4">
-                            <button type="button" className="px-4 py-2 rounded-md bg-[#a91079] text-white text-sm tracking-wider font-medium outline-none border-2 border-[#a91079] mr-4">Web design</button>
+                            <button type="button" className="px-4 py-2 rounded-md bg-blue-800 text-white text-sm tracking-wider font-medium outline-none border-2 border-blue-700 mr-4">Web design</button>
                             <button type="button" className="px-4 py-2 rounded-md bg-transparent text-gray-400 text-sm tracking-wider font-medium outline-none border-2 border-gray-300 mr-4">Graphic design</button>
                             <button type="button" className="px-4 py-2 rounded-md bg-transparent text-gray-400 text-sm tracking-wider font-medium outline-none border-2 border-gray-300">Design system</button>
                         </div>
                         <form className="mt-8 space-y-4">
                             <input type='text' placeholder='Name'
-                                className="w-full rounded-md py-3 px-4 text-sm outline-[#a91079]" />
+                                className="w-full rounded-md py-3 px-4 text-sm outline-blue-700" />
                             <input type='email' placeholder='Email'
-                                className="w-full rounded-md py-3 px-4 text-sm outline-[#a91079]" />
+                                className="w-full rounded-md py-3 px-4 text-sm outline-blue-700" />
                             <input type='text' placeholder='Subject'
-                                className="w-full rounded-md py-3 px-4 text-sm outline-[#a91079]" />
+                                className="w-full rounded-md py-3 px-4 text-sm outline-blue-700" />
                             <textarea placeholder='Message' rows={6}
-                                className="w-full rounded-md px-4 text-sm pt-3 outline-[#a91079]"></textarea>
+                                className="w-full rounded-md px-4 text-sm pt-3 outline-blue-700"></textarea>
                             <button type='button'
-                                className="text-white bg-[#a91079] hover:bg-[#a91079e2] font-semibold rounded-md text-sm px-4 py-3 flex items-center justify-center w-full">
+                                className="text-white bg-blue-800 hover:bg-[#a91079e2] font-semibold rounded-md text-sm px-4 py-3 flex items-center justify-center w-full">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16px" height="16px" fill='#fff' className="mr-2" viewBox="0 0 548.244 548.244">
                                     <path fill-rule="evenodd" d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z" clip-rule="evenodd" data-original="#000000" />
                                 </svg>

@@ -22,7 +22,7 @@ export default function RootLayout({
       <body className={`${inter.className} bg-white dark:bg-gray-900`}>
         <NavBar />
         {children}
-        <Kontakt/>
+
         <Footer />
       </body>
     </html>
